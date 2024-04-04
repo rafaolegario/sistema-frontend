@@ -1,0 +1,13 @@
+button {
+  min-width: 303px;
+}
+input[type="email"] {
+  min-width: 305px;
+  margin: 2px -1px;
+}
+label {
+  margin: 5px 6px 0;
+}
+.box {
+  padding: 30px;
+}

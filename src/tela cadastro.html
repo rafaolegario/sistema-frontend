@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <title>Nova conta</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo login.css" type="text/css" />
+    <link rel="stylesheet" href="estilo cadastro.css" type="text/css" />
+
+
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="box">
+            <h1>CRIAR CONTA</h1>
+            <form>
+                <div class="row">
+                    <div class="left">
+
+                        <label for="nome">Nome:</label>
+                        <input type="text" class="input-field" id="nome" />
+
+                    </div>
+                    <div class="right">
+
+                        <label for="sobrenome">Sobrenome:</label>
+                        <input type="text" class="input-field" id="sobrenome" />
+
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="left">
+
+                        <label for="email">E-mail:</label>
+                        <input type="email" class="input-field" id="email" />
+
+                    </div>
+
+                    <div class="right">
+
+                        <label for="slc1">Genero:</label>
+                        <select class="input-field" id="slc1">
+                            <option>Prefiro não informar</option>
+                            <option>Masculino</option>
+                            <option>Feminino</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="left">
+
+                        <label for="senha">Senha:</label>
+                        <input type="password" class="input-field" id="senha" />
+
+                    </div>
+
+                    <div class="right">
+
+                        <label for="telefone">Telefone:</label>
+                        <input type="text" class="input-field" id="telefone" />
+
+                    </div>
+                </div>
+                <span id="spnerro" class="erro"></span>
+                <div class="row">
+                    <button id="btncadastro">CRIAR CONTA</button>
+                </div>
+                <p><b>Ja possui conta?</b><a href="3-tela de login.html"> Entrar</a></p>
+            </form>
+        </div>
+    </div>
+
+    <script src="cadastro.js"></script>
+
+</body>
+
+</html>
